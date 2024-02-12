@@ -1,0 +1,48 @@
+@import "normalize.css";
+
+:root {
+    --font-TTHoves-medium: {
+        font-family: "TTHovesMedium";
+    }
+    --font-TTHoves-light: {
+        font-family: "TTHovesLight";
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "TTHovesRegular";
+    color: #333;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "TTHovesLight";
+    src: url("../../assets/fonts/TT\ Hoves\ Pro\ Trial\ Light.ttf")
+        format("truetype");
+}
+@font-face {
+    font-family: "TTHovesRegular";
+    src: url("../../assets/fonts/TT\ Hoves\ Pro\ Trial\ Regular.ttf")
+        format("truetype");
+}
+@font-face {
+    font-family: "TTHovesMedium";
+    src: url("../../assets/fonts/TT\ Hoves\ Pro\ Trial\ Medium.ttf")
+        format("truetype");
+}
+@font-face {
+    font-family: "TTHovesBold";
+    src: url("../../assets/fonts/TT\ Hoves\ Pro\ Trial\ Bold.ttf")
+        format("truetype");
+}
